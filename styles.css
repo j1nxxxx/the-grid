@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(Roboto-VariableFont_wdth,wght.ttf)
+    font-family: 'Lato';
+    src: url(Lato-Light.ttf)
 }
 
 body {
@@ -10,7 +10,12 @@ body {
 }
 
 h1 {
-    font-family:'Roboto';
+    position: absolute;
+    top: 20%;
+    left: 44.5%;
+    padding: 10px;
+    width: 180px;
+    border: 1px solid black;
 }
 
 .ae86 {
