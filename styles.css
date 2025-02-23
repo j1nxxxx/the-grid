@@ -10,6 +10,7 @@ body {
 }
 
 h1 {
+    font-family: 'Times New Roman';
     position: absolute;
     top: 20%;
     left: 44.5%;
@@ -23,6 +24,7 @@ h1 {
     top: 25%;
     left: 30%;
     width: 40%;
+    z-index: 1;
 }
 
 ul {
@@ -31,11 +33,34 @@ ul {
     padding: 0;
     position: absolute;
     top: 32.5%;
-    left: 35%
+    left: 35%;
+    z-index: 2;
 }
 
 ul li {
-    font-family:'Roboto';
+    font-family:'Lato';
     margin-bottom: 50px;
     font-size: 18px;
+    font-weight: 300;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+ul li a:hover {
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
