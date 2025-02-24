@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Times New Roman';
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+p1 {
+    font-family: 'Times New Roman';
+    position: absolute;
+    top: 18%;
+    left: 19.9%;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Lato';
+    position: relative;
+    top: 25%;
+    left: 19.5%;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+}
+
+ul li {
+    display: inline-block;
+    font-family: 'Lato';
+    padding: 14px 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
