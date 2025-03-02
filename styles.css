@@ -5,8 +5,6 @@
 
 body {
     background-color: whitesmoke;
-    width: 100%;
-    height: 100%;
 }
 
 h1 {
@@ -63,4 +61,10 @@ ul li a:hover {
 @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
+}
+
+h5 {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
 }
