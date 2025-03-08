@@ -14,7 +14,7 @@ p1 {
     font-family: 'Times New Roman';
     position: absolute;
     top: 18%;
-    left: 19.9%;
+    left: 21%;
     font-size: 30px;
 }
 
@@ -22,7 +22,15 @@ p {
     font-family: 'Lato';
     position: relative;
     top: 25%;
-    left: 19.5%;
+    left: 22%;
+    margin-bottom: 20px;
+}
+
+p2 {
+    font-family: 'Lato';
+    position: relative;
+    top: 25%;
+    left: 22%;
     margin-bottom: 20px;
 }
 
@@ -50,7 +58,7 @@ ul.gear-list {
     list-style-type: disc;
     position: absolute;
     top: 29%;
-    left: 22%;
+    left: 24%;
     padding-left: 20px;
     margin: 0;
 }

@@ -13,13 +13,13 @@ p1 {
     font-family: 'Times New Roman';
     position: absolute;
     top: 18%;
-    left: 19.9%;
+    left: 21%;
     font-size: 30px;
 }
 
 .engine {
     position: absolute;
-    left: 20%;
+    left: 43%;
     top: 25%;
     width: 20%;
 }
@@ -56,4 +56,13 @@ h5 {
     position: absolute;
     bottom: 0;
     right: 5px;
+}
+
+ul li a:hover {
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
