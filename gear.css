@@ -1,44 +1,52 @@
 body {
     background-color: whitesmoke;
-    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    transform: translate(calc(50vw - 960px), calc(50vh - 540px + 70px));
 }
 
 h1 {
     font-family: 'Times New Roman';
     position: absolute;
-    top: 5%;
-    left: 20%;
+    top: 54px;
+    left: 384px;
 }
 
-p1 {
+.p1 {
     font-family: 'Times New Roman';
     position: absolute;
-    top: 18%;
-    left: 21%;
+    top: 194px;
+    left: 403px;
     font-size: 30px;
+}
+
+.p2 {
+    font-family: 'Lato';
+    position: absolute;
+    top: 620px;
+    left: 422px;
 }
 
 p {
     font-family: 'Lato';
-    position: relative;
-    top: 25%;
-    left: 22%;
+    position: absolute;
+    top: 255px;
+    left: 422px;
     margin-bottom: 20px;
+    text-align: left;
 }
-
-p2 {
-    font-family: 'Lato';
-    position: relative;
-    top: 60%;
-    left: 22%;
-}
-
 
 ul.title-list {
     list-style-type: none;
     position: absolute;
-    top: 10%;
-    left: 17%;
+    top: 108px;
+    left: 326px;
 }
 
 ul.title-list li {
@@ -57,8 +65,8 @@ ul.title-list li a {
 ul.gear-list {
     list-style-type: disc;
     position: absolute;
-    top: 29%;
-    left: 24%;
+    top: 305px;
+    left: 461px;
     padding-left: 20px;
     margin: 0;
 }
@@ -73,8 +81,8 @@ ul.gear-list li {
 ul.gear-list2 {
     list-style-type: disc;
     position: absolute;
-    top: 68%;
-    left: 24%;
+    top: 650px;
+    left: 461px;
     padding-left: 20px;
     margin: 0;
 }
@@ -88,6 +96,15 @@ ul.gear-list2 li {
 
 h5 {
     position: absolute;
-    bottom: 0;
-    right: 5px;
+    top: 70px;
+    left: 600px;
+}
+
+ul li a:hover {
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }

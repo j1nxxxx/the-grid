@@ -1,20 +1,28 @@
 body {
     background-color: whitesmoke;
-    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    transform: translate(calc(50vw - 960px), calc(50vh - 540px + 70px));
 }
 
 h1 {
     font-family: 'Times New Roman';
     position: absolute;
-    top: 5%;
-    left: 20%;
+    top: 54px;
+    left: 384px;
 }
 
-p1 {
+.p1 {
     font-family: 'Times New Roman';
     position: absolute;
-    top: 18%;
-    left: 22%;
+    top: 194px;
+    left: 403px;
     font-size: 30px;
 }
 
@@ -54,9 +62,10 @@ ul li a {
 
 h5 {
     position: absolute;
-    bottom: 0;
-    right: 5px;
+    top: 70px;
+    left: 600px;
 }
+
 
 ul li a:hover {
     animation: blink 0.8s infinite;

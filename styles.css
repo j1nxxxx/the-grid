@@ -5,13 +5,23 @@
 
 body {
     background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    transform: translate(calc(50vw - 960px), calc(50vh - 540px + 70px));
 }
 
 h1 {
     font-family: 'Times New Roman';
-    position: absolute;
-    top: 20%;
-    left: 44.5%;
+    position: fixed;
+    top: 170px;
+    left: 850px;
+    text-align: center;
     padding: 10px;
     width: 180px;
     border: 1px solid black;
@@ -19,9 +29,9 @@ h1 {
 
 .ae86 {
     position: absolute;
-    top: 25%;
-    left: 30%;
-    width: 40%;
+    top: 240px;
+    left: 576px;
+    width: 768px;
     z-index: 1;
 }
 
@@ -30,8 +40,8 @@ ul {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 32.5%;
-    left: 35%;
+    top: 350px;
+    left: 672px;
     z-index: 2;
 }
 
@@ -65,6 +75,6 @@ ul li a:hover {
 
 h5 {
     position: absolute;
-    bottom: 0;
-    right: 5px;
+    top: 193px;
+    right: 795px;
 }

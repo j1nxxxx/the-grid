@@ -1,42 +1,51 @@
 body {
     background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    transform: translate(calc(50vw - 960px), calc(50vh - 540px + 70px));
 }
 
 h1 {
     font-family: 'Times New Roman';
     position: absolute;
-    top: 5%;
-    left: 20%;
+    top: 54px;
+    left: 384px;
 }
 
-p1 {
+.p1 {
     font-family: 'Times New Roman';
     position: absolute;
-    top: 18%;
-    left: 21%;
+    top: 194px;
+    left: 403px;
     font-size: 30px;
 }
 
 .engine {
     position: absolute;
-    left: 40%;
-    top: 25%;
-    width: 20%;
+    left: 768px;
+    top: 270px;
+    width: 384px;
 }
 
 p {
     font-family: 'Lato';
-    position: relative;
-    top: 25%;
-    left: 19.5%;
+    position: absolute;
+    top: 270px;
+    left: 374px;
     margin-bottom: 20px;
 }
 
 ul.title-list {
     list-style-type: none;
     position: absolute;
-    top: 10%;
-    left: 17%;
+    top: 108px;
+    left: 326px;
 }
 
 ul.title-list li {
@@ -54,9 +63,10 @@ ul.title-list li a {
 
 h5 {
     position: absolute;
-    bottom: 0;
-    right: 5px;
+    top: 70px;
+    left: 600px;
 }
+
 
 ul li a:hover {
     animation: blink 0.8s infinite;
