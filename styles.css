@@ -5,44 +5,38 @@
 
 body {
     background-color: whitesmoke;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 1920px;
-    height: 1080px;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    transform: translate(calc(50vw - 960px), calc(50vh - 540px + 70px));
+
 }
 
 h1 {
     font-family: 'Times New Roman';
-    position: fixed;
-    top: 170px;
+    position: absolute;
+    top: 200px;
     left: 850px;
     text-align: center;
-    padding: 10px;
-    width: 180px;
     border: 1px solid black;
+    overflow: auto;
 }
 
 .ae86 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     top: 240px;
     left: 576px;
     width: 768px;
     z-index: 1;
+    overflow: auto;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     position: absolute;
-    top: 350px;
-    left: 672px;
+    top: 310px;
+    left: 620px;
     z-index: 2;
+    overflow: auto;
 }
 
 ul li {
@@ -57,11 +51,7 @@ ul li a {
     padding: 5px;
     border: 2px solid transparent;
     transition: border 0.3s ease;
-}
-
-ul li a {
-    text-decoration: none;
-    color: inherit; 
+    color: black;
 }
 
 ul li a:hover {
@@ -74,7 +64,7 @@ ul li a:hover {
 }
 
 h5 {
-    position: absolute;
-    top: 193px;
-    right: 795px;
+    position: fixed;
+    bottom: 1px;
+    right: 5px;
 }
