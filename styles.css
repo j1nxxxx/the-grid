@@ -10,33 +10,33 @@ body {
 
 h1 {
     font-family: 'Times New Roman';
-    position: absolute;
+    position: fixed;
     top: 200px;
-    left: 850px;
+    left: 830px;
     text-align: center;
     border: 1px solid black;
-    overflow: auto;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .ae86 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
+    position: fixed;
     top: 240px;
     left: 576px;
     width: 768px;
     z-index: 1;
-    overflow: auto;
 }
 
 ul {
     list-style-type: none;
-    position: absolute;
+    position: fixed;
     top: 310px;
     left: 620px;
     z-index: 2;
-    overflow: auto;
 }
 
 ul li {

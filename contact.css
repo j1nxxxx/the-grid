@@ -1,38 +1,31 @@
 body {
     background-color: whitesmoke;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 1920px;
-    height: 1080px;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    transform: translate(calc(50vw - 960px), calc(50vh - 540px + 70px));
 }
 
 h1 {
     font-family: 'Times New Roman';
-    position: absolute;
-    top: 54px;
-    left: 384px;
+    position: fixed;
+    top: 40px;
+    left: 390px;
+    display: inline;
 }
 
-.p1 {
+#p1 {
     font-family: 'Times New Roman';
-    position: absolute;
-    top: 194px;
-    left: 403px;
+    position: fixed;
+    top: 170px;
+    left: 390px;
     font-size: 30px;
+    font-weight: 50;
+    display: inline;
 }
 
 p {
     font-family: 'Lato';
-    position: relative;
-    top: 25%;
-    left: 23%;
-    margin-bottom: 10px;
-    padding: 0;
+    position: fixed;
+    top: 250px;
+    left: 410px;
+    display: flex;
 }
 
 p a {
@@ -42,9 +35,9 @@ p a {
 
 ul {
     list-style-type: none;
-    position: absolute;
-    top: 10%;
-    left: 17%;
+    position: fixed;
+    top: 108px;
+    left: 326px;
 }
 
 ul li {
@@ -61,9 +54,9 @@ ul li a {
 }
 
 h5 {
-    position: absolute;
-    top: 70px;
-    left: 600px;
+    position: fixed;
+    bottom: 1px;
+    right: 5px;
 }
 
 

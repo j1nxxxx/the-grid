@@ -4,17 +4,17 @@ body {
 
 h1 {
     font-family: 'Times New Roman';
-    position: relative;
-    top: 54px;
-    left: 384px;
+    position: fixed;
+    top: 40px;
+    left: 390px;
     display: inline;
 }
 
 #p1 {
     font-family: 'Times New Roman';
-    position: relative;
-    top: 180px;
-    left: 220px;
+    position: fixed;
+    top: 170px;
+    left: 390px;
     font-size: 30px;
     font-weight: 50;
     display: inline;
@@ -22,17 +22,18 @@ h1 {
 
 p {
     font-family: 'Lato';
-    position: relative;
+    position: fixed;
     top: 250px;
-    left: 422px;
-    margin-bottom: 20px;
-    text-align: left;
-    display: inline;
+    left: 410px;
+    border-style: hidden;
+    border-width: 1px;
+    display: flex;
+    width: 900px;
 }
 
 ul {
     list-style-type: none;
-    position: absolute;
+    position: fixed;
     top: 108px;
     left: 326px;
 }
