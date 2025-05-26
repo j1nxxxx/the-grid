@@ -4,38 +4,32 @@ body {
 
 h1 {
     font-family: 'Times New Roman';
-    position: absolute;
-    top: 54px;
-    left: 384px;
+    position: fixed;
+    top: 40px;
+    left: 390px;
+    display: inline;
 }
 
 #p1 {
     font-family: 'Times New Roman';
-    position: absolute;
-    top: 194px;
-    left: 403px;
+    position: fixed;
+    top: 170px;
+    left: 390px;
     font-size: 30px;
+    font-weight: 50;
+    display: inline;
 }
 
-#p2 {
-    font-family: 'Lato';
-    position: absolute;
-    top: 620px;
-    left: 422px;
-}
-
-p {
-    font-family: 'Lato';
-    position: absolute;
-    top: 255px;
-    left: 422px;
-    margin-bottom: 20px;
-    text-align: left;
+#title {
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 ul.title-list {
     list-style-type: none;
-    position: absolute;
+    position: fixed;
     top: 108px;
     left: 326px;
 }
@@ -53,7 +47,23 @@ ul.title-list li a {
     color: inherit;
 }
 
-ul.gear-list {
+#desk-gear {
+    position: fixed;
+    top: 250px;
+    left: 410px;
+    font-family: 'Lato';
+    font-weight: 50;
+}
+
+#tech {
+    position: fixed;
+    top: 590px;
+    left: 410px;
+    font-family: 'Lato';
+    font-weight: 50;
+}
+
+#gear-list {
     list-style-type: disc;
     position: absolute;
     top: 305px;
@@ -62,14 +72,15 @@ ul.gear-list {
     margin: 0;
 }
 
-ul.gear-list li {
+
+#gear-list li {
     font-family: 'Lato';
     padding: 14px 18px;
     font-size: 15px;
     font-weight: 500;
 }
 
-ul.gear-list2 {
+#gear-list2 {
     list-style-type: disc;
     position: absolute;
     top: 650px;
@@ -78,7 +89,7 @@ ul.gear-list2 {
     margin: 0;
 }
 
-ul.gear-list2 li {
+#gear-list2 li {
     font-family: 'Lato';
     padding: 14px 18px;
     font-size: 15px;
@@ -86,9 +97,9 @@ ul.gear-list2 li {
 }
 
 h5 {
-    position: absolute;
-    top: 70px;
-    left: 600px;
+    position: fixed;
+    bottom: 1px;
+    right: 5px;
 }
 
 ul li a:hover {

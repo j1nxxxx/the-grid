@@ -20,18 +20,33 @@ h1 {
     display: inline;
 }
 
-p {
+#title {
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#email {
     font-family: 'Lato';
     position: fixed;
     top: 250px;
     left: 410px;
     display: flex;
-}
-
-p a {
     text-decoration: none;
     color: inherit;
 }
+
+#linkedin {
+    font-family: 'Lato';
+    position: fixed;
+    top: 300px;
+    left: 410px;
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
 
 ul {
     list-style-type: none;
@@ -64,7 +79,7 @@ ul li a:hover {
     animation: blink 0.8s infinite;
 }
 
-p:hover {
+a:hover {
     animation: blink 0.8s infinite;
 }
 

@@ -20,6 +20,13 @@ h1 {
     display: inline;
 }
 
+#title {
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .engine {
     position: fixed;
     left: 768px;
