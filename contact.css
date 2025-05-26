@@ -88,3 +88,7 @@ a:hover {
     50% { opacity: 0; }
 }
 
+@font-face {
+    font-family: 'Lato';
+    src: url(Lato-Light.ttf)
+}

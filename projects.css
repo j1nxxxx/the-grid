@@ -70,3 +70,8 @@ ul li a:hover {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
 }
+
+@font-face {
+    font-family: 'Lato';
+    src: url(Lato-Light.ttf)
+}
