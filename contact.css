@@ -37,10 +37,20 @@ h1 {
     color: inherit;
 }
 
-#linkedin {
+#email2 {
     font-family: 'Lato';
     position: fixed;
     top: 300px;
+    left: 410px;
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+#linkedin {
+    font-family: 'Lato';
+    position: fixed;
+    top: 350px;
     left: 410px;
     display: flex;
     text-decoration: none;
