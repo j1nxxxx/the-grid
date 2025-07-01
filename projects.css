@@ -76,9 +76,7 @@ ul li a:hover {
     src: url(Lato-Light.ttf)
 }
 
-
-
-#desk-gear {
+#project1 {
     position: fixed;
     top: 250px;
     left: 410px;
@@ -86,7 +84,7 @@ ul li a:hover {
     font-weight: 50;
 }
 
-#gear-list {
+#desc1 {
     list-style-type: disc;
     position: absolute;
     top: 305px;
@@ -96,7 +94,7 @@ ul li a:hover {
 }
 
 
-#gear-list li {
+#desc1 li {
     font-family: 'Lato';
     padding: 14px 18px;
     font-size: 15px;
