@@ -75,3 +75,36 @@ ul li a:hover {
     font-family: 'Lato';
     src: url(Lato-Light.ttf)
 }
+
+
+
+#desk-gear {
+    position: fixed;
+    top: 250px;
+    left: 410px;
+    font-family: 'Lato';
+    font-weight: 50;
+}
+
+#gear-list {
+    list-style-type: disc;
+    position: absolute;
+    top: 305px;
+    left: 461px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+#gear-list li {
+    font-family: 'Lato';
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
