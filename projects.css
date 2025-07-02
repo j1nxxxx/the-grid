@@ -27,14 +27,6 @@ h1 {
     padding-right: 10px;
 }
 
-.engine {
-    position: fixed;
-    left: 768px;
-    top: 270px;
-    width: 384px;
-}
-
-
 ul.title-list {
     list-style-type: none;
     position: fixed;
@@ -84,6 +76,14 @@ ul li a:hover {
     font-weight: 50;
 }
 
+#project2 {
+    position: fixed;
+    top:450px;
+    left: 410px;
+    font-family: 'Lato';
+    font-weight: 50;
+}
+
 #desc1 {
     list-style-type: disc;
     position: absolute;
@@ -95,6 +95,23 @@ ul li a:hover {
 
 
 #desc1 li {
+    font-family: 'Lato';
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#desc2 {
+    list-style-type: disc;
+    position: absolute;
+    top: 505px;
+    left: 461px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+#desc2 li {
     font-family: 'Lato';
     padding: 14px 18px;
     font-size: 15px;
