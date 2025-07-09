@@ -84,6 +84,15 @@ ul li a:hover {
     font-weight: 50;
 }
 
+#project3 {
+    position: fixed;
+    top:665px;
+    left: 410px;
+    font-family: 'Lato';
+    font-weight: 50;
+}
+
+
 #desc1 {
     list-style-type: disc;
     position: absolute;
@@ -112,6 +121,23 @@ ul li a:hover {
 
 
 #desc2 li {
+    font-family: 'Lato';
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#desc3 {
+    list-style-type: disc;
+    position: absolute;
+    top: 710px;
+    left: 461px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+#desc3 li {
     font-family: 'Lato';
     padding: 14px 18px;
     font-size: 15px;
