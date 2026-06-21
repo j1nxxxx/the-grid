@@ -1,37 +1,26 @@
 body {
     background-color: whitesmoke;
+    margin: 0;
+    padding: 40px 0 40px 390px;
+    box-sizing: border-box;
 }
 
 h1 {
     font-family: 'Times New Roman';
-    position: fixed;
-    top: 40px;
-    left: 390px;
-    display: inline;
-}
-
-#p1 {
-    font-family: 'Times New Roman';
-    position: fixed;
-    top: 170px;
-    left: 390px;
-    font-size: 30px;
-    font-weight: 50;
     display: inline;
 }
 
 #title {
     border: 1px solid black;
     padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 ul.title-list {
     list-style-type: none;
-    position: fixed;
-    top: 108px;
-    left: 326px;
+    padding: 0;
+    margin: 0 0 40px 0;
 }
 
 ul.title-list li {
@@ -47,12 +36,44 @@ ul.title-list li a {
     color: inherit;
 }
 
+#p1 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: 50;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#project1, #project2, #project3 {
+    font-family: 'Lato';
+    font-weight: 50;
+    margin: 20px 0 10px 50px;
+}
+
+#desc1, #desc2, #desc3 {
+    list-style-type: disc;
+    padding-left: 70px;
+    margin: 0 0 20px 0;
+}
+
+#desc1 li, #desc2 li, #desc3 li {
+    font-family: 'Lato';
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h5 {
     position: fixed;
     bottom: 1px;
     right: 5px;
+    margin: 0;
 }
-
 
 ul li a:hover {
     animation: blink 0.8s infinite;
@@ -68,84 +89,21 @@ ul li a:hover {
     src: url(Lato-Light.ttf)
 }
 
-#project1 {
-    position: fixed;
-    top: 250px;
-    left: 410px;
-    font-family: 'Lato';
-    font-weight: 50;
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    ul.title-list li {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    #project1, #project2, #project3 {
+        margin-left: 0;
+    }
+
+    #desc1, #desc2, #desc3 {
+        padding-left: 20px;
+    }
 }
-
-#project2 {
-    position: fixed;
-    top:450px;
-    left: 410px;
-    font-family: 'Lato';
-    font-weight: 50;
-}
-
-#project3 {
-    position: fixed;
-    top:665px;
-    left: 410px;
-    font-family: 'Lato';
-    font-weight: 50;
-}
-
-
-#desc1 {
-    list-style-type: disc;
-    position: absolute;
-    top: 305px;
-    left: 461px;
-    padding-left: 20px;
-    margin: 0;
-}
-
-
-#desc1 li {
-    font-family: 'Lato';
-    padding: 14px 18px;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-#desc2 {
-    list-style-type: disc;
-    position: absolute;
-    top: 505px;
-    left: 461px;
-    padding-left: 20px;
-    margin: 0;
-}
-
-
-#desc2 li {
-    font-family: 'Lato';
-    padding: 14px 18px;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-#desc3 {
-    list-style-type: disc;
-    position: absolute;
-    top: 710px;
-    left: 461px;
-    padding-left: 20px;
-    margin: 0;
-}
-
-
-#desc3 li {
-    font-family: 'Lato';
-    padding: 14px 18px;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-

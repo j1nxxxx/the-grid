@@ -1,37 +1,26 @@
 body {
     background-color: whitesmoke;
+    margin: 0;
+    padding: 40px 0 40px 390px;
+    box-sizing: border-box;
 }
 
 h1 {
     font-family: 'Times New Roman';
-    position: fixed;
-    top: 40px;
-    left: 390px;
-    display: inline;
-}
-
-#p1 {
-    font-family: 'Times New Roman';
-    position: fixed;
-    top: 170px;
-    left: 390px;
-    font-size: 30px;
-    font-weight: 50;
     display: inline;
 }
 
 #title {
     border: 1px solid black;
     padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 ul.title-list {
     list-style-type: none;
-    position: fixed;
-    top: 108px;
-    left: 326px;
+    padding: 0;
+    margin: 0 0 40px 0;
 }
 
 ul.title-list li {
@@ -47,31 +36,31 @@ ul.title-list li a {
     color: inherit;
 }
 
+#p1 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: 50;
+    display: block;
+    margin-bottom: 30px;
+}
+
 #desk-gear {
-    position: fixed;
-    top: 250px;
-    left: 410px;
     font-family: 'Lato';
     font-weight: 50;
+    margin: 0 0 10px 50px;
 }
 
 #tech {
-    position: fixed;
-    top: 590px;
-    left: 410px;
     font-family: 'Lato';
     font-weight: 50;
+    margin: 20px 0 10px 50px;
 }
 
 #gear-list {
     list-style-type: disc;
-    position: absolute;
-    top: 305px;
-    left: 461px;
-    padding-left: 20px;
-    margin: 0;
+    padding-left: 70px;
+    margin: 0 0 10px 0;
 }
-
 
 #gear-list li {
     font-family: 'Lato';
@@ -82,11 +71,8 @@ ul.title-list li a {
 
 #gear-list2 {
     list-style-type: disc;
-    position: absolute;
-    top: 650px;
-    left: 461px;
-    padding-left: 20px;
-    margin: 0;
+    padding-left: 70px;
+    margin: 0 0 10px 0;
 }
 
 #gear-list2 li {
@@ -100,6 +86,7 @@ h5 {
     position: fixed;
     bottom: 1px;
     right: 5px;
+    margin: 0;
 }
 
 ul li a:hover {
@@ -114,4 +101,28 @@ ul li a:hover {
 @font-face {
     font-family: 'Lato';
     src: url(Lato-Light.ttf)
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    ul.title-list li {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    #desk-gear, #tech {
+        margin-left: 0;
+    }
+
+    #gear-list, #gear-list2 {
+        padding-left: 20px;
+    }
 }

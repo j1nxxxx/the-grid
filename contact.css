@@ -1,68 +1,26 @@
 body {
     background-color: whitesmoke;
+    margin: 0;
+    padding: 40px 0 40px 390px;
+    box-sizing: border-box;
 }
 
 h1 {
     font-family: 'Times New Roman';
-    position: fixed;
-    top: 40px;
-    left: 390px;
-    display: inline;
-}
-
-#p1 {
-    font-family: 'Times New Roman';
-    position: fixed;
-    top: 170px;
-    left: 390px;
-    font-size: 30px;
-    font-weight: 50;
     display: inline;
 }
 
 #title {
     border: 1px solid black;
     padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
-
-#email {
-    font-family: 'Lato';
-    position: fixed;
-    top: 250px;
-    left: 410px;
-    display: flex;
-    text-decoration: none;
-    color: inherit;
-}
-
-#email2 {
-    font-family: 'Lato';
-    position: fixed;
-    top: 300px;
-    left: 410px;
-    display: flex;
-    text-decoration: none;
-    color: inherit;
-}
-
-#linkedin {
-    font-family: 'Lato';
-    position: fixed;
-    top: 350px;
-    left: 410px;
-    display: flex;
-    text-decoration: none;
-    color: inherit;
-}
-
 
 ul {
     list-style-type: none;
-    position: fixed;
-    top: 108px;
-    left: 326px;
+    padding: 0;
+    margin: 0 0 40px 0;
 }
 
 ul li {
@@ -78,12 +36,44 @@ ul li a {
     color: inherit;
 }
 
+#p1 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: 50;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#email {
+    font-family: 'Lato';
+    display: block;
+    margin: 0 0 16px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#email2 {
+    font-family: 'Lato';
+    display: block;
+    margin: 0 0 16px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#linkedin {
+    font-family: 'Lato';
+    display: block;
+    margin: 0 0 16px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
 h5 {
     position: fixed;
     bottom: 1px;
     right: 5px;
+    margin: 0;
 }
-
 
 ul li a:hover {
     animation: blink 0.8s infinite;
@@ -101,4 +91,19 @@ a:hover {
 @font-face {
     font-family: 'Lato';
     src: url(Lato-Light.ttf)
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    ul li {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    #email, #email2, #linkedin {
+        margin-left: 0;
+    }
 }
